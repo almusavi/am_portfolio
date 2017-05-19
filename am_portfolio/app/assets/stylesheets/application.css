@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.headingbox {
+	background-color: white;
+	margin: auto;
+	width: 1000px;
+	border-style: solid;
+	border-width: 10px;
+}
+.textheading {
+ 	text-align: center;
+  	font-family: "Poppins";
+}
+
+.twopicks {
+	display: flex;
+}
+.centerdiv {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+ .headingbig {
+ 	font-family: "Poppins";
+ 	text-align: center;
+ 	font-size: 125px;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+ .centertext {
+ 	font-family: "Poppins";
+ 	text-align: center;
+ 	font-size: 15px;
+ 	margin: 5px;
+ 	padding: 0px;
+ }
+
+.heading {
+ 	font-family: "Poppins";
+ 	text-align: center;
+ 	font-size: 48px;
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+body {
+ 	background-color: grey;
+ }
+
+ .project {
+ 	background-color: yellow;
+	margin: auto;
+	width: 1000px;
+	border-style: solid;
+	border-width: 1px;
+ }
